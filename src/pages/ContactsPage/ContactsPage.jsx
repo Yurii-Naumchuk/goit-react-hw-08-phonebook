@@ -37,7 +37,8 @@ const ContactsPage = () => {
           width: 400,
           mt: 3,
           p: 2,
-          backgroundColor: '#577eeb86',
+          backgroundColor: '#69d6ef49',
+          borderRadius: 10,
           boxShadow:
             'rgb(166 170 188) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px',
         }}
