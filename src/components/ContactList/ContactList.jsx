@@ -25,7 +25,7 @@ export const ContactsList = () => {
       {filteredContacts.map(({ name, number, id }) => {
         return (
           <ListItem key={id} sx={{ p: 0 }}>
-            <ListItemIcon sx={{ fontSize: 30 }}>
+            <ListItemIcon sx={{ fontSize: 35 }}>
               <PhoneInTalkRounded color="primary" />
             </ListItemIcon>
             <Typography component="div" sx={{ mr: 'auto' }}>

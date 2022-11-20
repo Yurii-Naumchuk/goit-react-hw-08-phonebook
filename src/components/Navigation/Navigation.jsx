@@ -2,8 +2,8 @@ import { useSelector } from 'react-redux';
 import { selectIsLoggedIn } from 'redux/auth/auth-selectors';
 import { NavLink } from 'components/AuthNav/AuthNav.styled';
 import { Toolbar } from '@mui/material';
-import ImportContactsIcon from '@mui/icons-material/ImportContacts';
-import HomeIcon from '@mui/icons-material/Home'; // import Link from '@mui/material/Link';
+import ContactPageOutlined from '@mui/icons-material/ImportContacts';
+import HomeIcon from '@mui/icons-material/Home';
 
 export const Navigation = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
@@ -16,7 +16,10 @@ export const Navigation = () => {
       </NavLink>
       {isLoggedIn && (
         <NavLink to="/contacts">
-          <ImportContactsIcon fontSize="small" />
+          <ContactPageOutlined
+            sx={{ mr: 5 }}
+            fontSize="small"
+          />
           Contacts
         </NavLink>
       )}

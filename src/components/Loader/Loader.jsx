@@ -1,20 +1,17 @@
-import { Oval } from 'react-loader-spinner';
+import { Vortex } from 'react-loader-spinner';
 import { Container } from './Loader.styled';
 
 export const Loader = () => {
   return (
     <Container>
-      <Oval
-        height={80}
-        width={80}
-        color="#1976d2"
-        wrapperStyle={{}}
-        wrapperClass=""
+      <Vortex
         visible={true}
-        ariaLabel="oval-loading"
-        secondaryColor="#42a5f52e"
-        strokeWidth={2}
-        strokeWidthSecondary={2}
+        height="80"
+        width="80"
+        ariaLabel="vortex-loading"
+        wrapperStyle={{}}
+        wrapperClass="vortex-wrapper"
+        colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
       />
     </Container>
   );

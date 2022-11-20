@@ -37,7 +37,7 @@ export const Filter = () => {
         onChange={handleChangeFilter}
         placeholder="Search"
         variant="standard"
-        sx={{ width: '250px' }}
+        sx={{ width: '300px' }}
     />
     </Box>
   );

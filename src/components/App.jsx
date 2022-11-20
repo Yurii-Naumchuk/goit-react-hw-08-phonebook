@@ -9,10 +9,6 @@ import { Loader } from './Loader/Loader';
 import { Layout } from './Layout';
 import { PublicRoute } from './PublicRoute';
 
-// import  HomePage from '../pages/HomePage/HomePage';
-// import  RegisterPage  from '../pages/RegisterPage/RegisterPage';
-// import  LoginPage  from '../pages/LoginPage/LoginPage';
-// import  ContactsPage  from '../pages/ContactsPage/ContactsPage';
 
 const HomePage = lazy(() => import('pages/HomePage/HomePage'));
 const RegisterPage = lazy(() => import('pages/RegisterPage/RegisterPage'));
