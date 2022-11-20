@@ -69,7 +69,7 @@ export const LoginForm = () => {
         type="submit"
         variant="contained"
         size="medium"
-        sx={{ display: 'flex', width: 80, mr: 'auto', ml: 'auto' }}
+        sx={{ display: 'flex', width: 110, mr: 'auto', ml: 'auto' }}
       >
         Sing in
       </Button>
