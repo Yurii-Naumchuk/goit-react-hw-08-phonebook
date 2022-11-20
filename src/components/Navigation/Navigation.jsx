@@ -17,7 +17,7 @@ export const Navigation = () => {
       {isLoggedIn && (
         <NavLink to="/contacts">
           <ContactPageOutlined
-            sx={{ mr: 5 }}
+            sx={{ mr: 1 }}
             fontSize="small"
           />
           Contacts
